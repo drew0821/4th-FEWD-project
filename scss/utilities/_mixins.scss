@@ -1,0 +1,14 @@
+@mixin image-style {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  
+  @mixin button-hover($color) {
+    background-color: $color;
+    &:hover {
+      background-color: lighten($color, 10%);
+    }
+  }

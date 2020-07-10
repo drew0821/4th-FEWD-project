@@ -1,0 +1,33 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $color-btn;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    @include button-hover($background-theme-11);
+  }
+  
+  .error {
+    @include button-hover($background-theme-9);
+  }
+
+  .success {
+    @include button-hover($background-theme-10);
+  }
+  
+  .warning {
+    @include button-hover($background-theme-2);
+  }
+  .info {
+    @include button-hover($background-theme-1);
+  }
+  
